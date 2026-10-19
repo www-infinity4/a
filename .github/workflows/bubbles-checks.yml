@@ -2,6 +2,7 @@ name: Bubbles Python and Node checks
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
+  id-token: write
 jobs:
   check:
     runs-on: ubuntu-latest
